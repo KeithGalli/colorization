@@ -1,1 +1,16 @@
-HELLLO World
+Welcome to the 6.819 Final Project
+
+This project takes in black and white images and colors them using a convolutional neural network trained on a large database of images.
+
+Setup
+
+1. python miniplacesImgCollector.py
+
+This file is used to combine all of the data from the miniplaces challenge dataset found at:
+http://6.869.csail.mit.edu/fa16/project.html
+into a single folder of images.
+
+2. python imageResize.py
+
+This command converts all images into size (160, 144) and then saves them into a new folder called in the main directory called new_pics.
+The neural net is now ready to be trained using this collection of images.
